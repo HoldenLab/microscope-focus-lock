@@ -44,3 +44,18 @@ Although this implementation is built around an ASI CRISP, in principle it shoul
 - In addition to serial monitor control, I also added a very basic UP/ DOWN  manual control with two push buttons wired to Arduino digital I/O pins.
 - Axial magnification is proportional to the square of the lateral magnification. In order for a tube lens shift of several mm to cause sufficient focal shift, we need to use a shorter focal length tube lens for the autofocus, compared to the imaging tube lens. In our case, the (Nikon) imaging tube lens is f=200mm, and the autofocus is f=100mm, reducing the axial autofocus magnification by a factor of 4 – this gives us an ~10 um lock range.
 
+## Photos
+
+Autofocus diagram:
+![Autofocus diagram](https://github.com/seamusholden/microscope-focus-lock/tree/master/images/motor tube lens sketch.png "Autofocus diagram")
+
+Autofocus photos:
+![Autofocus photo 1](https://github.com/seamusholden/microscope-focus-lock/tree/master/images/autofocus-view1.jpg "Autofocus photo 1")
+![Autofocus photo 2](https://github.com/seamusholden/microscope-focus-lock/tree/master/images/autofocus-view1.jpg "Autofocus photo 2")
+![Autofocus photo 3](https://github.com/seamusholden/microscope-focus-lock/tree/master/images/autofocus-view3.jpg "Autofocus photo 3")
+
+Arduino wiring:
+![Arduino wiring](https://github.com/seamusholden/microscope-focus-lock/tree/master/images/arduino-wiring-photo.jpg "Arduino wiring")
+
+World's worst control pad:
+![Control pad:](https://github.com/seamusholden/microscope-focus-lock/tree/master/images/motor-control-pad.jpg "control pad")
