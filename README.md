@@ -1,4 +1,4 @@
-# Arduino-based microscope autofocus control
+# FocusMcFocussy: Arduino-based microscope autofocus control
 _To add in-sample offset shift to reflection autofocus systems (either home built or commercial systems such as the ASI CRISP)_
 
 ## Items required
