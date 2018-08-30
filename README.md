@@ -47,7 +47,7 @@ Although this implementation is built around an ASI CRISP, in principle it shoul
 ## Photos
 
 Autofocus diagram:
-![Autofocus diagram](https://github.com/seamusholden/microscope-focus-lock/tree/master/images/motor\ tube\ lens\ sketch.png "Autofocus diagram")
+![Autofocus diagram](https://github.com/seamusholden/microscope-focus-lock/tree/master/images/motor-tube-lens-sketch.png "Autofocus diagram")
 
 Autofocus photos:
 ![Autofocus photo 1](https://github.com/seamusholden/microscope-focus-lock/tree/master/images/autofocus-view1.jpg "Autofocus photo 1")
