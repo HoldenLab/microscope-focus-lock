@@ -47,15 +47,21 @@ Although this implementation is built around an ASI CRISP, in principle it shoul
 ## Photos
 
 Autofocus diagram:
+
 <img src="images/motor-tube-lens-sketch.png" height="300"/>
 
 Autofocus photos:
+
 <img src="images/autofocus-view1.jpg" height="300"/>
+
 <img src="images/autofocus-view2.jpg" height="300"/>
+
 <img src="images/autofocus-view3.jpg" height="300"/>
 
 Arduino wiring:
+
 <img src="images/arduino-wiring-photo.jpg height="300"/>
 
 World's worst control pad:
+
 <img src="images/motor-control-pad.jpg" height="300"/>
