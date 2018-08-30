@@ -1,9 +1,9 @@
 # Arduino-based microscope autofocus control
-## Adds in-sample offset shift to reflection autofocus systems such as the ASI CRISP
+_To add in-sample offset shift to reflection autofocus systems (either home built or commercial systems such as the ASI CRISP)_
 
 ## Items required
 ### Electronics:
-- ASI crisp
+- ASI crisp or other reflection based autofocus system
 - Arduino Uno
 - Adafruit motor shield v2.3
 - 12V stepping motor, Unipolar Hybrid Stepper Motor 1.8°, 0.10Nm, 12 V dc, 400 mA, 6 Wires RS Stock No. 191-8299
@@ -20,7 +20,7 @@
 - Zoom housing ? cage adaptors:
 - 2x LCP02/M
 - SM1T10 SM1 (1.035"-40) Coupler, External Threads, 1" Long
-- Motor ? ½” post adaptor: CP06F/M
+- Motor to ½” post adaptor: CP06F/M
 - 20 cm of cage rods
 - CRISP mounted on cage plate adaptor:
 - LCP01/M
@@ -48,7 +48,7 @@ Although this implementation is built around an ASI CRISP, in principle it shoul
 
 Autofocus diagram:
 
-<img src="images/motor-tube-lens-sketch.png" height="300"/>
+<img src="images/motor-tube-lens-sketch.png" height="600"/>
 
 Autofocus photos:
 
