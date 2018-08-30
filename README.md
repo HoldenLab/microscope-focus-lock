@@ -47,18 +47,15 @@ Although this implementation is built around an ASI CRISP, in principle it shoul
 ## Photos
 
 Autofocus diagram:
-![Autofocus diagram](images/motor-tube-lens-sketch.png "Autofocus diagram" height="300")
-![Autofocus diagram](https://github.com/seamusholden/microscope-focus-lock/tree/master/images/motor-tube-lens-sketch.png "Autofocus diagram")
-<img src="https://github.com/seamusholden/microscope-focus-lock/tree/master/images/motor-tube-lens-sketch.png" height="300"/>
 <img src="images/motor-tube-lens-sketch.png" height="300"/>
 
 Autofocus photos:
-![Autofocus photo 1](https://github.com/seamusholden/microscope-focus-lock/tree/master/images/autofocus-view1.jpg "Autofocus photo 1")
-![Autofocus photo 2](https://github.com/seamusholden/microscope-focus-lock/tree/master/images/autofocus-view1.jpg "Autofocus photo 2")
-![Autofocus photo 3](https://github.com/seamusholden/microscope-focus-lock/tree/master/images/autofocus-view3.jpg "Autofocus photo 3")
+<img src="images/images/autofocus-view1.jpg" height="300"/>
+<img src="images/images/autofocus-view2.jpg" height="300"/>
+<img src="images/images/autofocus-view3.jpg" height="300"/>
 
 Arduino wiring:
-![Arduino wiring](https://github.com/seamusholden/microscope-focus-lock/tree/master/images/arduino-wiring-photo.jpg "Arduino wiring")
+<img src="images/arduino-wiring-photo.jpg height="300"/>
 
 World's worst control pad:
-![Control pad:](https://github.com/seamusholden/microscope-focus-lock/tree/master/images/motor-control-pad.jpg "control pad")
+<img src="images/motor-control-pad.jpg" height="300"/>
