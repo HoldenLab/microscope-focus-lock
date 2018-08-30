@@ -1,8 +1,8 @@
 # Arduino-based microscope autofocus control
 ## Adds in-sample offset shift to reflection autofocus systems such as the ASI CRISP
 
-##Items required
-###Electronics:
+## Items required
+### Electronics:
 - ASI crisp
 - Arduino Uno
 - Adafruit motor shield v2.3
@@ -14,7 +14,7 @@
 - Mini breadboard
 - Wires
 - 2x push switches
-###Optics & Optomechanics
+### Optics & Optomechanics
 - 1” F=100mm biconvex lens (NIR coated)
 - SM1 Zoom Housing for Ø1" Optics, Non-Rotating, 2" (50.8 mm) Travel SM1NR1
 - Zoom housing ? cage adaptors:
@@ -27,7 +27,7 @@
 - SM2A6
 - C Mount to SM1 thread adaptor.
 
-## Introduction
+## Background
 We use a reflection based ASI CRISP to maintain focus on our microscope. Similar to many other systems, it reflects an IR beam off a coverslip, and uses shifts in the position of this beam to maintain constant objective-slide separation by closed loop control. 
 The limitation of this approach is that this approach only allows you to lock focus at/ very near to the coverslip, in a range < 1 um for a 100x high NA objective, or optionally, to offset the lock position a fixed amount by physically displacing the autofocus device. We wanted to image cells at different heights within the same sample, so this approach was not sufficient for us. 
 In our case the autofocus system on our custom microscope has its own beam path and tube lens, before the fluorescence path, separated by a dichroic short pass. Because the autofocus has its own tube lens we were able to produce large changes in the lock position by implementing a motorized Arduino controlled tube lens on the autofocus beam path. This effectively offsets the lock position (the coverslide) and the camera/ excitation focus by a variable amount, in our case allowing ~ 10 um of lock range on 100x NA 1.49 TIRF objective, instead of the standard <1 um with a fixed autofocus tube lens.
@@ -35,7 +35,7 @@ Very briefly, we mounted a 100mm focal length lens on a zoom lens housing and mo
 Code, some photos, and brief notes are supplied to help others use the same approach.
 Although this implementation is built around an ASI CRISP, in principle it should work for any commercial or home built autofocus system. 
 
-##Notes:
+## Basic instructions/ notes
 - The Thorlabs zoom lens housing is controlled with a stepper motor, connected via a pulley and timing belt. Bizarrely, I could not find an easy out of the box way of adding pulley teeth to a cylindrical object (the zoom housing). As our application was low torque, I took the very low tech approach of chopping up a second timing belt, and gluing it inside out onto the outside of the zoom housing. The glued timing belt then acts as a makeshift pulley. 
 - Wire the motor to the Adafruit control board in 6-wire configuration.
 - Ensure to connect an external 12V power supply to the Arduino board to supply sufficient power to the motor.
