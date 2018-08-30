@@ -60,7 +60,7 @@ Autofocus photos:
 
 Arduino wiring:
 
-<img src="images/arduino-wiring-photo.jpg height="300"/>
+<img src="images/arduino-wiring-photo.jpg" height="300"/>
 
 World's worst control pad:
 
