@@ -50,9 +50,9 @@ Autofocus diagram:
 <img src="images/motor-tube-lens-sketch.png" height="300"/>
 
 Autofocus photos:
-<img src="images/images/autofocus-view1.jpg" height="300"/>
-<img src="images/images/autofocus-view2.jpg" height="300"/>
-<img src="images/images/autofocus-view3.jpg" height="300"/>
+<img src="images/autofocus-view1.jpg" height="300"/>
+<img src="images/autofocus-view2.jpg" height="300"/>
+<img src="images/autofocus-view3.jpg" height="300"/>
 
 Arduino wiring:
 <img src="images/arduino-wiring-photo.jpg height="300"/>
