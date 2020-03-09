@@ -1,14 +1,14 @@
-# FocusMcFocussy: Arduino-based microscope autofocus control
+# FocusShifter: Arduino-based microscope autofocus control
 _To add in-sample offset shift to reflection autofocus systems (either home built or commercial systems such as the ASI CRISP)_
 
-We developed an Arduino based controller for shifting the focus lock position of reflection based autofocus systems. It was developed just with internal rough and ready hacked-solution use in mind, but since it might be useful to other groups, I’ve put it up on our lab GitHub. Documentation is admittedly brief, but I’m happy to answer queries.
+We developed an Arduino based controller for shifting the focus lock position of reflection based autofocus systems. It was developed just with internal rough and ready hacked-solution use in mind, but since it might be useful to other groups, Iâ€™ve put it up on our lab GitHub. Documentation is admittedly brief, but Iâ€™m happy to answer queries.
 
 ## Items required
 ### Electronics:
 - ASI crisp or other reflection based autofocus system
 - Arduino Uno
 - Adafruit motor shield v2.3
-- 12V stepping motor, Unipolar Hybrid Stepper Motor 1.8°, 0.10Nm, 12 V dc, 400 mA, 6 Wires RS Stock No. 191-8299
+- 12V stepping motor, Unipolar Hybrid Stepper Motor 1.8Â°, 0.10Nm, 12 V dc, 400 mA, 6 Wires RS Stock No. 191-8299
 - PCB headers
 - 12V power supply: Plugtop PSU UK unregulated 3-12Vdc 6W RS Stock no.: 6158880
 - Pulley: MXL Plastic Pulley with insert teeth 18 RS Stock no.: 7784714
@@ -17,12 +17,12 @@ We developed an Arduino based controller for shifting the focus lock position of
 - Wires
 - 2x push switches
 ### Optics & Optomechanics
-- 1” F=100mm biconvex lens (NIR coated)
-- SM1 Zoom Housing for Ø1" Optics, Non-Rotating, 2" (50.8 mm) Travel SM1NR1
+- 1â€ F=100mm biconvex lens (NIR coated)
+- SM1 Zoom Housing for Ã˜1" Optics, Non-Rotating, 2" (50.8 mm) Travel SM1NR1
 - Zoom housing ? cage adaptors:
 - 2x LCP02/M
 - SM1T10 SM1 (1.035"-40) Coupler, External Threads, 1" Long
-- Motor to ½” post adaptor: CP06F/M
+- Motor to Â½â€ post adaptor: CP06F/M
 - 20 cm of cage rods
 - CRISP mounted on cage plate adaptor:
 - LCP01/M
@@ -44,7 +44,7 @@ Although this implementation is built around an ASI CRISP, in principle it shoul
 - Code is included to control the stepper motor and microscope focus via Arduino. Download the Arduino IDE, and open the Arduino focus-controller.ino sketch. Install the _Adafruit\_Motor\_Shield\_V2\_Library_ via the _Sketch\>Include Library\>Manage Libraries_ interface. Upload the code to the Arduino board.
 - Connect to the Arduino board and control the motor using the Arduino (or any other) serial monitor interface.
 - In addition to serial monitor control, I also added a very basic UP/ DOWN  manual control with two push buttons wired to Arduino digital I/O pins.
-- Axial magnification is proportional to the square of the lateral magnification. In order for a tube lens shift of several mm to cause sufficient focal shift, we need to use a shorter focal length tube lens for the autofocus, compared to the imaging tube lens. In our case, the (Nikon) imaging tube lens is f=200mm, and the autofocus is f=100mm, reducing the axial autofocus magnification by a factor of 4 – this gives us an ~10 um lock range.
+- Axial magnification is proportional to the square of the lateral magnification. In order for a tube lens shift of several mm to cause sufficient focal shift, we need to use a shorter focal length tube lens for the autofocus, compared to the imaging tube lens. In our case, the (Nikon) imaging tube lens is f=200mm, and the autofocus is f=100mm, reducing the axial autofocus magnification by a factor of 4 â€“ this gives us an ~10 um lock range.
 
 ## Photos
 
