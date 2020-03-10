@@ -1,7 +1,7 @@
 # FocusShifter: Arduino-based microscope autofocus control
 _To add in-sample offset shift to reflection autofocus systems (either home built or commercial systems such as the ASI CRISP)_
 
-We developed an Arduino based controller for shifting the focus lock position of reflection based autofocus systems. It was developed just with internal rough and ready hacked-solution use in mind, but since it might be useful to other groups, I’ve put it up on our lab GitHub. Documentation is admittedly brief, but I’m happy to answer queries.
+We developed an Arduino based controller for shifting the focus lock position of reflection based autofocus systems. 
 
 ## Items required
 ### Electronics:
