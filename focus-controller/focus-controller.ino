@@ -28,7 +28,7 @@ poslim
 
 #include <SoftwareSerial.h>   // We need this even if we're not using a SoftwareSerial object
                               // Due to the way the Arduino IDE compiles
-#include <SerialCommand.h>
+#include "src/ArduinoSerialCommand/SerialCommand.h"
 #include <EEPROM.h>
 #define ADDRESS_POS 0
 #define ADDRESS_SPEED 2
@@ -284,4 +284,3 @@ void help(){
   Serial.println("setmin");
   Serial.println("poslim");
 }
-
