@@ -52,6 +52,7 @@ int maxPos,minPos;
 SerialCommand SCmd;   // The demo SerialCommand object
 const int kPinButton1 = 2;
 const int kPinButton2 = 3;
+const int HomeButton = 4;
 const unsigned long kEEPROM_update_time = 5*1000;//10s
 unsigned long timeCheck;
 
@@ -95,8 +96,10 @@ void setup() {
   //setup the push buttons 
   pinMode(kPinButton1, INPUT);
   pinMode(kPinButton2, INPUT);
+  pinMode(HomeButton, INPUT);
   digitalWrite(kPinButton1, HIGH);
   digitalWrite(kPinButton2, HIGH);
+  digitalWrite(HomeButton, HIGH);
 
   //setup the time check
   timeCheck = millis();
@@ -115,6 +118,12 @@ void loop()
      relmove(-1*stepSize);
      //delay(20);//optional delay if button pressed too much
   }
+  if(digitalRead(HomeButton)==LOW){
+     //Serial.println("Going Home");
+     home();
+     //delay(20);//optional delay if button pressed too much
+  }
+
 
   // update the eeprom every N s 
   // since we dont update it during manual moves to avoid 
