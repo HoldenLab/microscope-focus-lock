@@ -1,3 +1,5 @@
+## This repository has been superseded by its the LifeHack repository. Documentation for this is available through the <a href="">LifeHack website</a>.
+
 # FocusShifter: Arduino-based microscope autofocus control
 _To add in-sample offset shift to reflection autofocus systems (either home built or commercial systems such as the ASI CRISP)_
 
